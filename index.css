@@ -5,7 +5,8 @@ h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
   /*=======  Update the font size to 60px and center the text */
-  font-size: 10px;
+  font-size: 60px;
+  text-align: center;
 }
 
 h2, h3, h4, h5, h6 {
@@ -13,17 +14,19 @@ h2, h3, h4, h5, h6 {
   margin-bottom: 0;
   padding: 0 10px;
   /*=======  Update the font size to 30px */
-  font-size: 10px;
+  font-size: 30px;
 }
 
-/*======= Create a selector for ALL p tags in the site to have the following styles:
+/*======= Create a selector for ALL p tags in the site to have the following styles:*/
 
-font-size: 16px;
-font-family: roboto;
-padding: 10px;
-line-height: 1.4;
+p {
+  font-size: 16px;
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
+}
 
-*/
+
 
 
 /*======= Create a selector for ALL images in the site to have the following styles: 
@@ -31,6 +34,9 @@ line-height: 1.4;
   border-radius: 10px;
 
 */
+img {
+  border-radius: 10px;
+}
 
 .content-row {
   display: flex;
@@ -38,11 +44,13 @@ line-height: 1.4;
 
 .content-row div {
   /*======= create a margin propery.  Set the value to 20px */
+  margin: 20px
 }
 
 .container {
   /*======= create a width property. Set the value to 605px */
   margin: 0 auto;
+  width: 605
 }
 
 .container header nav a {
@@ -54,6 +62,7 @@ line-height: 1.4;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
+  background: #F87B99;
    /*======= create a background property. Set the value to #F87B99 */
   
 }
